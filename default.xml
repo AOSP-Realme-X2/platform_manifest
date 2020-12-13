@@ -5,8 +5,8 @@
           fetch="https://github.com" />
 
   <remote name="custom"
-          fetch="https://github.com/AOSP-Realme-X2"
-          revision="refs/heads/android-11" />
+          fetch="ssh://git@github.com/AOSP-Realme-X2" 
+          revision="android-11" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
