@@ -22,11 +22,15 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device Common -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="custom" revision="sdm710" />
+
   <!-- External -->
   <project path="external/selinux" name="platform_external_selinux" remote="custom" />
   <project path="external/google-fonts/google-sans" name="platform_external_google-fonts_google-sans" remote="custom" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="custom" />
   <project path="external/motorola/faceunlock" name="platform_external_motorola_faceunlock" remote="custom" />
+  <project path="external/exfatprogs" name="platform_external_exfatprogs" remote="custom" />
   
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="custom" />
@@ -39,9 +43,11 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="custom" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="custom" />
   <project path="packages/apps/SettingsIntelligence" name="platfrom_packages_apps_SettingsIntelligence" remote="custom" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="custom" />
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="custom" />
+  <project path="system/vold" name="platform_system_vold" remote="custom" />
 
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="custom" />
   <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="custom" />
